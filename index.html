@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>○○チャット</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      padding: 28px 15px 10px;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin: 0 0 8px;
+    }
+
+    .admin-info {
+      font-size: 12px;
+      color: #777;
+      margin-bottom: 25px;
+    }
+
+    .rules {
+      background: white;
+      width: 90%;
+      max-width: 500px;
+      margin: 0 auto 25px;
+      padding: 18px;
+      border-radius: 15px;
+    }
+
+    .rules h2 {
+      font-size: 18px;
+      margin-top: 0;
+    }
+
+    .rules p {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+
+    .popular {
+      width: 90%;
+      max-width: 500px;
+      margin: 0 auto 25px;
+    }
+
+    .popular h2 {
+      font-size: 20px;
+    }
+
+    .room {
+      background: white;
+      margin: 8px 0;
+      padding: 14px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    .form {
+      width: 90%;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px;
+      margin: 7px 0 14px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      background: #333;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    footer {
+      margin: 35px 0;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>○○チャット</h1>
+    <div class="admin-info">
+      👑 管理者には👑マークが付きます！
+    </div>
+  </header>
+
+  <section class="rules">
+    <h2>📜 ルール</h2>
+    <p>・人が嫌がることをしない</p>
+    <p>・荒らしや迷惑行為は禁止です</p>
+    <p>・個人情報を書き込まないでください</p>
+    <p>🔗 外部リンク</p>
+  </section>
+
+  <section class="popular">
+    <h2>🔥 人気の部屋</h2>
+
+    <div class="room">
+      <span>暇部屋</span>
+      <span>👥 0人</span>
+    </div>
+
+    <div class="room">
+      <span>雑談部屋</span>
+      <span>👥 0人</span>
+    </div>
+
+    <div class="room">
+      <span>ゲーム</span>
+      <span>👥 0人</span>
+    </div>
+
+    <div class="room">
+      <span>ひまー</span>
+      <span>👥 0人</span>
+    </div>
+
+    <div class="room">
+      <span>なんでも</span>
+      <span>👥 0人</span>
+    </div>
+  </section>
+
+  <section class="form">
+
+    <label>部屋名を入力</label>
+    <input type="text" placeholder="部屋名">
+
+    <label>名前を入力</label>
+    <input type="text" placeholder="名前">
+
+    <label>ID入力</label>
+    <input type="text" placeholder="ID">
+
+    <button>入室</button>
+
+  </section>
+
+  <footer>
+    ○○チャット
+  </footer>
+
+</body>
+</html>
